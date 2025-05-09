@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Rutuj Gopale, portfolio, Rutuj, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio"
+    />
+    <meta
+      name="description"
+      content="Welcome to Rutuj's Portfolio. Full-Stack Web Developer and Android App Developer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <title>Portfolio | Rutuj Gopale</title>
+  </head>
+
+  <body oncontextmenu="return false">
+    <header>
+      <a class="logo"><i class="fa-solid fa-user"></i> Rutuj</a>
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar" id="nav-menu">
+        <ul>
+          <li><a class="active" href="#home" class="nav-link home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work" class="nav-link projects">Projects</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero section starts -->
+    <section class="home" id="home" class="nav-link home">
+      <div class="content" style="margin-top: 40px">
+        <h2>
+          Hi There,<br />
+          I'm Rutuj <span>Gopale</span>
+        </h2>
+        <p>i am into <span class="typing-text"></span></p>
+
+        <div class="resumebtn" style="margin-top: -15px">
+          <a
+            href="#"
+            id="resume-button-1"
+            class="btn"
+            onclick="downloadAndOpenResume(event)"
+          >
+            <span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <script>
+          function downloadAndOpenResume(event) {
+            event.preventDefault();
+            var url = "./assets/images/Rutuj Gopale_Resume.pdf";
+            var fileName = "Rutuj Gopale_Resume.pdf";
+          }
+        </script>
+
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/rutuj-gopale-827aab1ba/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/Rutuj99"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="dev"
+                aria-label="Dev"
+                href="mailto:rutujbg99@gmail.com"
+                target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <img style="border-radius: 10px;border: 2px solid  rgb(198, 195, 199);" src="./assets/images/2.png" alt="self img" /> -->
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts -->
+    <section class="about section" id="about">
+      <h2 class="heading" class="title">
+        <i class="fas fa-user-alt"></i> About <span>Me</span>
+      </h2>
+
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            class="home-img"
+            src="./assets/images/2.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3 id="user-detail-name">I'm Rutuj</h3>
+          <span class="tag">Full Stack Web Developer</span>
+
+          <p id="user-detail-intro">
+            I am a passionate Full Stack Web Developer with 1.5 years of
+            experience, specializing in MERN stack development, SharePoint
+            development, and Shopify development. My expertise extends to
+            building scalable and efficient web applications while solving
+            complex problems using Java. With experience as a Technology
+            Developer and Mentor at Kalvium, I have honed my ability to develop
+            innovative web solutions and guide aspiring developers. My journey
+            includes training at Masai School, where I mastered Full Stack Web
+            Development, and a computer engineering degree from St. John
+            College, which solidified my technical foundation. I am a
+            self-motivated and driven individual who thrives on continuous
+            learning, staying up-to-date with the latest trends in web
+            development. With my strong technical background, problem-solving
+            skills, and creative mindset, I am confident in my ability to
+            contribute meaningfully to any team.
+          </p>
+
+          <div class="box-container">
+            <div class="box">
+              <p><span> age: </span> 24</p>
+              <p><span> phone : </span> +91 997-039-3172</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> rutujbg99@gmail.com</p>
+              <p><span> place : </span> Mumbai, India - 401501</p>
+            </div>
+          </div>
+
+          <div class="resumebtn">
+            <a
+              href="#"
+              id="resume-button-2"
+              class="btn"
+              onclick="downloadAndOpenResume(event)"
+            >
+              <span>Resume</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <script>
+            function downloadAndOpenResume(event) {
+              event.preventDefault();
+              var url = "./assets/images/Rutuj Gopale_Resume.pdf";
+              var fileName = "Rutuj Gopale_Resume.pdf";
+
+              fetch(url)
+                .then((response) => response.blob())
+                .then((blob) => {
+                  var fileURL = URL.createObjectURL(blob);
+
+                  // Trigger the file download
+                  var link = document.createElement("a");
+                  link.href = fileURL;
+                  link.download = fileName;
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+
+                  // Open the file in a new tab
+                  window.open(fileURL, "_blank");
+                })
+                .catch((error) => console.log(error));
+            }
+          </script>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- Experience -->
+    <section
+      class="experience"
+      id="experience"
+      style="background-color: rgb(185, 209, 246); overflow: auto"
+    >
+      <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
+
+      <div class="content" style="margin-bottom: 10px">
+        <div class="tag">
+          <h2>Kalvium</h2>
+        </div>
+        <div class="desc">
+          <h3>Technology Mentor and  Developer</h3>
+          <p>October 2023 - April 2025</p>
+          <ul style="margin-left: 20px; font-size: 12px">
+            <li>
+              Contributed to internal tool development by collaborating with the product team to build features,
+               test functionality, and suggest improvements for enhanced user experience.
+            </li>
+            <li>
+             Mentored students and new joiners by introducing
+              them to Kalvium's development workflows, coding standards, and platform structure.
+            </li>
+            <li>
+              Conducted technical interviews and regular code reviews to ensure the 
+              correctness, readability, and efficiency of student submissions.
+            </li>
+            <li>
+              Led live coding sessions and conceptual deep-dives on full-stack development 
+              topics to reinforce practical understanding.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content" style="margin-bottom: 10px">
+        <div class="tag">
+          <h2>Sakshath Technologies</h2>
+        </div>
+        <div class="desc">
+          <h3>Trainee Consultant SharePoint Developer</h3>
+          <p>May 2023 - August 2023</p>
+          <ul style="margin-left: 20px; font-size: 12px">
+            <li>
+              Gained expertise in Power Apps, Power Automate, and SharePoint,
+              leveraging these tools to develop efficient, user-friendly
+              solutions for business process automation.
+            </li>
+            <li>
+              Designed and implemented automated workflows to minimize manual
+              effort, improve operational efficiency, and optimize data
+              management.
+            </li>
+            <li>
+              Collaborated on a Vendor Management project to improve tracking
+              systems and optimize workflows and navigation.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content" style="margin-bottom: 240px">
+        <div class="tag">
+          <h2>SYNERGINA PVT LTD</h2>
+        </div>
+        <div class="desc">
+          <h3>Web Developer Intern | Internship</h3>
+          <p>March 2021 - June 2021</p>
+          <ul style="margin-left: 20px; font-size: 12px">
+            <li>
+              Designed and developed a user-friendly website using HTML, CSS,
+              JavaScript, Shopify, and Canva to enhance UI/UX.
+            </li>
+            <li>
+              Optimized website performance for SEO, increasing visibility and
+              organic traffic.
+            </li>
+            <li>
+              Ensured responsive design, providing a seamless experience across
+              different devices and screen sizes.
+            </li>
+            <li>
+              Managed and updated website content to keep it relevant and
+              engaging for users.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience end -->
+
+    <section
+      class="skills"
+      id="skills"
+      class="skills-card"
+      style="margin-top: 100px"
+    >
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
+      </h2>
+
+      <div class="container" class="skills-card-img">
+        <div class="row" id="skillsContainer" class="skills-card-name"></div>
+      </div>
+    </section>
+
+    <!-- education section starts -->
+    <section class="education" id="education">
+      <h1 class="heading">
+        <i class="fas fa-graduation-cap"></i> My <span>Education</span>
+      </h1>
+
+      <p class="qoute">
+        Education is not the learning of facts, but the training of the mind to
+        think.
+      </p>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="https://newsd.in/wp-content/uploads/2021/03/Masai-School-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Full Stack Web Development Course</h3>
+            <p>Masai School | A Nolan Edutech Pvt Ltd Venture | Banglore</p>
+            <h4>Sep 2022 - May 2023 | Completed</h4>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMaum1uB0QqByJD1zkseFuYkJoYNlcO3krw&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Bachelor of Engineering in Computers</h3>
+            <p>St. John College Of Enginerring and Management | MU</p>
+            <h4>2018-2022 | Completed</h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img style="height: 100%" src="./assets/images/mk.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>HSC Science | IT</h3>
+            <p>M.K.Junior College | MSBSHSE</p>
+            <h4>2016-2018 | Completed</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education section ends -->
+
+    <!-- work project section starts -->
+    <!-- style="margin-bottom: -200px;" -->
+
+    <section
+      class="work"
+      id="work"
+      style="margin-bottom: -200px"
+      id="projects"
+      class="nav-link projects"
+    >
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Projects <span>Made</span>
+      </h2>
+
+      <!-- <div class="box-container">
+
+   
+
+</div> -->
+      <div class="for-project" id="projects">
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="Bank app"
+            src="./assets/images/socio.png"
+          />
+          <h1 class="project-title">Sociomeet Website</h1>
+          <h1 class="project-description">
+            The App offering various functionalities, like user authentication,
+            post creation, commenting, profile viewing, and more.
+          </h1>
+          <h1 class="project-tech-stack">
+            Techstack : React JS with Chakra UI,Express JS, Node JS, MongoDB
+          </h1>
+          <a
+            href="https://github.com/Rutuj99/Socio-Meet"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://socio-meet.vercel.app/"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="Bank app"
+            src="./assets/images/bank.png"
+          />
+          <h1 class="project-title">Banking-Application</h1>
+          <h1 class="project-description">
+            The App offering various functionalities, including login, account
+            management, payments, OTP verification, loan application, and loan
+            approval/declined flow, with the SIP calculator.
+          </h1>
+          <h1 class="project-tech-stack">
+            Techstack : Power Apps, SharePoint, and Power Automate
+          </h1>
+          <a
+            href="https://github.com/Rutuj99/Banking-Application_SharePoint-Automate-PowerApps"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://github.com/Rutuj99/Banking-Application_SharePoint-Automate-PowerApps"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="overstock app"
+            src="./assets/images/projects/instagrammern.png"
+          />
+          <h1 class="project-title">OverStock Website</h1>
+          <h1 class="project-description">
+            This is a web app that is a clone of the OverStock Website. It is a
+            collaborative project of 4 members which is completed in 5 days.
+          </h1>
+          <h1 class="project-tech-stack">Techstack : JavaScript, Html, CSS</h1>
+          <a
+            href="https://github.com/Rutuj99/OverStock-Clone"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://keen-gumption-fb166b.netlify.app/"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="trivago app"
+            src="./assets/images/projects/flipkartmern.png"
+          />
+          <h1 class="project-title">Trivago Website</h1>
+          <h1 class="project-description">
+            This is a web app that is a clone of the Trivago Website. It is a
+            collaborative project of 4 members which is completed in 5 days.
+          </h1>
+          <h1 class="project-tech-stack">
+            Techstack : JavaScript, Html, CSS, SMTP Server
+          </h1>
+          <a
+            href="https://github.com/Rutuj99/Trivago-Clone/tree/main"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href=" https://papaya-druid-787f56.netlify.app"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="nike app"
+            src="./assets/images/projects/Nike.png"
+          />
+          <h1 class="project-title">Nike Website</h1>
+          <h1 class="project-description">
+            This is a web app that is a clone of Nike's Website. It is a
+            collaborative project of 4 members which is completed in 6 days.
+          </h1>
+          <h1 class="project-tech-stack">
+            Techstack : React Js, JavaScript, Html, CSS, Cakra UI
+          </h1>
+          <a
+            href="https://github.com/Rutuj99/Nike-Website_Clone-React"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://nikeclonereact.netlify.app/"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            alt="leave Management app"
+            src="./assets/images/Screenshot 2023-06-20 163304.png"
+          />
+          <h1 class="project-title">Leave-Management-App</h1>
+          <h1 class="project-description">
+            Leave-Management-App is a web application built to streamline the
+            process of managing leave requests within an organization.
+          </h1>
+          <h1 class="project-tech-stack">
+            Techstack : Power Apps, SharePoint, and Power Automate
+          </h1>
+          <a
+            href="https://github.com/Rutuj99/Leave-Management-App---Power-Apps"
+            class="project-github-link"
+          >
+            <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://apps.powerapps.com/play/e/default-0a9788cc-0df2-45b2-857e-e6c3fa127f1d/a/58415fba-ea96-4cf4-8044-ac9da4eb9608?tenantId=0a9788cc-0df2-45b2-857e-e6c3fa127f1d"
+            class="project-deployed-link"
+          >
+            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- work project section ends -->
+
+    <!-- experience section starts -->
+
+    <!-- footer section starts -->
+    <section
+      class="footer"
+      id="contact"
+      style="background-color: rgb(25, 26, 25)"
+    >
+      <div class="box-container">
+        <div class="box">
+          <h3>Rutuj's Portfolio</h3>
+          <p>
+            Thank you for visiting my personal portfolio website. <br />
+            <br />
+            Keep Rising 🚀.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> skills</a
+          >
+          <a href="#education"
+            ><i class="fas fa-chevron-circle-right"></i> education</a
+          >
+          <a href="#work"
+            ><i class="fas fa-chevron-circle-right"></i> projects</a
+          >
+        </div>
+
+        <div class="box" class="last" id="contact" class="nav-link contact">
+          <h3>contact info</h3>
+          <p><i id="contact-phone" class="fas fa-phone"></i>+91-9970393172</p>
+          <p>
+            <a
+              class="dev"
+              id="contact-email"
+              aria-label="Dev"
+              href="mailto:rutujbg99@gmail.com"
+              target="_blank"
+              ><i class="fa-solid fa-envelope"></i>rutujbg99@gmail.com</a
+            >
+          </p>
+          <p><i class="fas fa-map-marked-alt"></i>Mumbai, India-401501</p>
+          <div class="share">
+            <li>
+              <a
+                id="contact-linkedin"
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/rutuj-gopale-827aab1ba/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                id="contact-github"
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/Rutuj99"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                class="dev"
+                aria-label="Dev"
+                href="https://leetcode.com/Rutuj_gop/"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">----- Thank You -----</h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- scroll top btn -->
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+    <!-- scroll back to top -->
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- typed.js cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- particle.js links -->
+    <script src="./assets/js/app.js"></script>
+
+    <!-- vanilla tilt.js links -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- scroll reveal anim -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+    <script src="./assets/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d5e11ff79d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      GitHubCalendar(".calendar", "rutuj99", { responsive: true });
+    </script>
+
+    <!-- _________________________________________x________________________________________ -->
+    <script>
+      // Add smooth scrolling to all links
+      const links = document.querySelectorAll('a[href^="#"]');
+      links.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+
+    <!-- __________________________x_____________________________________ -->
+  </body>
+</html>
